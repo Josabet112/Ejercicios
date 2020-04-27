@@ -1,0 +1,64 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta title="author" content="Josabet Tun Hernandez">
+    <meta http-equiv="X-UA-Compatible" contend="ie-edge">
+    <title>The Document Object Model</title>
+    <style>
+        h1,h2{text-align: center;}
+         table{
+             border: thin solid; 
+             margin: 50% ;
+         } 
+      
+         h2, p,h1,tr:first-of-type{background-color: rgb(139, 230, 241);}
+      *{
+         padding: 0;
+         margin: 0;
+     }
+     .title{
+        
+         left: 20px;
+         width: 630px;
+         height: 50px;
+         text-align: center;
+         font-size: 50pt;
+         text-transform: uppercase;
+     }
+     article{
+         position: absolute;
+         top: 70px;
+         width: 400px;
+         height: 150px;
+         text-align: justify;
+         font-size: 14pt;
+     }
+     article.left{
+        left:40px;
+     }
+     article.right{
+         left: 500px;
+     }
+     </style>
+</head>
+<body>
+    <h1 id="page-title", style="color: orange;">The DOM</h1>
+    <h2 style="color:rgb(11, 185, 11)";>Chapter 6</h2>
+    <p>Heeeeeeeee</p>
+    <div>
+        <p style="color:rgb(174, 30, 210)";>Hello, world</p>
+        <p style="color:rgb(199, 29, 6)";>Lorem ipsum cuh</p>
+        <p class="error" style="color:rgb(128, 172, 9)";> This is an error message</p>
+    </div>
+    <div class="content">
+        <p style="color:rgba(34, 40, 122, 0.897);> this is the content</p>
+    </div>
+
+    <div class="error" style="color:rgb(155, 7, 7)";>This is another error</div>
+    
+    <a href="https://www.google.com" style="color:rgb(4, 13, 139)";>Link to the darkside</a>
+
+    <script src="sandbox6.js" style="color:rgb(49, 3, 61)";></script>
+</body>
+</html>
